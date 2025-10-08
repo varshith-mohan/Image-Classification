@@ -1,4 +1,4 @@
-# Transfer-Learning
+# Image-Classification-using-Pre-Trained-model
 transfer learning leverages corresponding samples between source and target domains to enhance model generalization.
 
 - using a pre-trained model for feature extraction: When working with a small dataset, it is a common practice to take advantage of features learned by a model trained on a larger dataset in the same domain. This is done by instantiating the pre-trained model and adding a fully-connected classifier on top. The pre-trained model is "frozen" and only the weights of the classifier get updated during training. In this case, the convolutional base extracted all the features associated with each image and you just trained a classifier that determines the image class given that set of extracted features.
